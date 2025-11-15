@@ -7,9 +7,9 @@ import { Capsule } from "three/addons/math/Capsule.js";
 //Audio with Howler.js
 const sounds = {
   backgroundMusic: new Howl({
-    src: ["./sfx/music.ogg"],
+    src: ["./sfx/music.mp3"],
     loop: true,
-    volume: 0.3,
+    volume: 0.1,
     preload: true,
   }),
 
